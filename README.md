@@ -26,4 +26,6 @@ De namen worden alleen in de browser verwerkt. De app verstuurt of bewaart geen 
 
 ## Status
 
-De werkversie is lokaal. De functionele review is verwerkt; de browserproef en de volledige testmatrix moeten nog opnieuw worden uitgevoerd op deze versie.
+De app is gekoppeld aan Vercel en de laatste build is gereed: https://groepsindeler.vercel.app
+
+De Vercel-projectinstelling vereist team-SSO. Alleen gebruikers met toegang tot het Vercel-team kunnen de app nu openen. De GitHub-repository is openbaar. De bijgewerkte versie is nog niet opnieuw handmatig getest; zie `TESTPLAN.md`.
