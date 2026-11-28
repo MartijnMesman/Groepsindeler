@@ -26,20 +26,20 @@
         </div>
         <span class="count-badge" id="name-count">0 namen</span>
       </div>
-      <label for="names">Eén naam per regel (of scheid namen met komma's)</label>
+      <label for="names">Eén naam per regel (of scheid namen met komma’s)</label>
       <textarea id="names" rows="8" placeholder="Aisha&#10;Bram&#10;Chen&#10;Daan&#10;Elif&#10;Fatima"></textarea>
       <fieldset class="mode-picker">
         <legend>Kies de presentatie</legend>
         <div class="mode-options">
-          <label class="mode-option selected"><input type="radio" name="mode" value="festival" checked><span class="mode-icon" aria-hidden="true">🎧</span><span><strong>Festival DJ</strong><small>Line-up en podia</small></span></label>
-          <label class="mode-option"><input type="radio" name="mode" value="draft"><span class="mode-icon" aria-hidden="true">🏆</span><span><strong>Team Draft</strong><small>Teams en spelerskaarten</small></span></label>
+          <label class="mode-option selected"><input type="radio" name="mode" value="festival" checked><span class="mode-icon">✦</span><span><strong>Festival DJ</strong><small>Line-up en podia</small></span></label>
+          <label class="mode-option"><input type="radio" name="mode" value="draft"><span class="mode-icon">▣</span><span><strong>Team Draft</strong><small>Teams en spelerskaarten</small></span></label>
         </div>
       </fieldset>
       <div class="input-row">
         <label class="inline-label" for="group-size">Maximaal <select id="group-size" aria-label="Maximale groepsgrootte">
           <option value="2">2</option><option value="3">3</option><option value="4" selected>4</option><option value="5">5</option><option value="6">6</option>
         </select> personen per groep</label>
-        <button class="primary" id="shuffle" type="button">Indelen <span aria-hidden="true">→</span></button>
+        <button class="primary" id="shuffle" type="button">Indelen <span aria-hidden="true">↗</span></button>
       </div>
       <p class="hint" id="validation" role="status">Tip: plak hier direct een namenlijst uit Teams of Excel.</p>
     </section>
@@ -49,13 +49,13 @@
         <div><p class="eyebrow">Stap 2</p><h2 id="result-title">Jouw indeling</h2></div>
         <div class="actions">
           <button class="secondary" id="pause" type="button" disabled>Pauzeren</button>
-          <button class="secondary" id="skip" type="button" disabled>Animatie overslaan</button>
+          <button class="secondary" id="skip" type="button" disabled>Overslaan</button>
           <button class="secondary" id="reshuffle" type="button" disabled>Opnieuw indelen</button>
         </div>
       </div>
 
       <div id="visual-result" class="visual-result" aria-live="polite">
-        <div class="empty-state"><span class="empty-icon" aria-hidden="true">↘</span><p>Je groepen verschijnen hier als je op <strong>Indelen</strong> klikt.</p></div>
+        <div class="empty-state"><span class="empty-icon">◎</span><p>Je groepen verschijnen hier als je op <strong>Indelen</strong> klikt.</p></div>
       </div>
 
       <div class="text-result-wrap">
